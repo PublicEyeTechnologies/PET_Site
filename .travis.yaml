@@ -1,0 +1,13 @@
+deploy:
+  provider: s3
+  bucket: "publiceyetechnologies.com"
+  region: eu-west-1
+  acl: public_read
+  on:
+    repo: PublicEyeTechnologies/PET_Site
+notifications:
+  email:
+    recipients:
+      - jonny@publiceyetechnologies.com
+    on_success: never
+    on_failure: change
