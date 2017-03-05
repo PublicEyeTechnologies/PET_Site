@@ -3,8 +3,9 @@ deploy:
   access_key_id: AKIAJXLAWVGSHMWV6V2Q
   secret_access_key:
     secure: 5FddyHacqeIHDptTdwOCere8GIgZTBwGzEEhTmFIdrPdvTi6XN3W50AWZzTWvFoGmlBYSoID9CMhfZxkFgUkuCLsHor/sOeGiA1nT6S3czk8CwKxZhWoudkiIV6lTHqGFFvRKO2u5cXL28hnIVHkzhL2SaaJu2IZh2kECVktj90j/P4KoaeoEXeL1SdMCN66tbAXOZxVl9nxUZsGmCh+FLQd3617Zi5BHJTnLHIihwzdbfDAiwsREuKLzSmBkMsJzfNyB/vbgark8f1qm9DR7JotDokqrE7u0DBmGKE746tS1OggP5ESlT33FeLES+/oxS5X5QD7oesbPo6rmA9MdPJL1IjRjeWEqEZ3UTvVn7kCxKxWSSaXyiM2KG8by72J8lDPFJmCCUhxEhgDVz53V3RKMXO8VpBHZP8+OB9Y9wpnDByQUaobSCY5P+bCv8+CnMVh+RnAznvN5wVoTsIhakQO+qvRwff/2Ddt5GiV5fAIrpbqL7VGB8G421+b117w5kLaueAcCqt6RDeOKCGrELdp2/DoOdcl0OHWxqVNR1aZmxKc/uZ+z+5Rrsff/B6B2v07s0LQplNMmh0vvLnP/QI+LACkPO6eSd5QrhwhHpttwaEHqrZvi8kTydY6lSWUuaR46eq4ysR9fl98T2Y+xC1EG3GKZ6FqdV2Kny9d0a4=
-  bucket: publiceyetechnologies.com
-  acl: bucket_owner_full_control
+  bucket: "publiceyetechnologies.com"
+  region: eu-west-1
+  acl: public_read
   on:
     repo: PublicEyeTechnologies/PET_Site
 notifications:
